@@ -1,4 +1,7 @@
 export default {
+  // Target for application to be served at
+  target: 'static',
+
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'coding-minutes-v2',
