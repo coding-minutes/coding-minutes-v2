@@ -1,4 +1,4 @@
-<template lang="">
+<template>
   <div>
     <h1>Explore learning paths 🔥</h1>
     <span>
@@ -19,15 +19,25 @@
 
     <section v-for="category in Courses" :key="category.category">
       <h3>{{ category.category }}</h3>
-      <CourseCard v-for="course in category.courses" course="course" />
+      <div class="category-courses-list">
+        <CourseCard
+          v-for="course in category.courses"
+          :key="course.title"
+          :course="course"
+        />
+      </div>
     </section>
   </div>
 </template>
 
 <script>
 import Courses from "@/data/courses.json";
+import CourseCard from "@/components/CourseCard";
 
 export default {
+  components: {
+    CourseCard
+  },
   methods: {
     getImgUrl(img) {
       return "require(`@/static/${img}`)";
@@ -41,4 +51,11 @@ export default {
 };
 </script>
 
-<style lang=""></style>
+<style>
+.category-courses-list {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  width: 100%;
+}
+</style>
