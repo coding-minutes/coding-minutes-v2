@@ -1,0 +1,88 @@
+[
+  {
+    "category": "Data Structures & Algorithms",
+    "icon": "dart.png",
+    "courses": [
+      {
+        "title": "Data Structures Basics",
+        "mentors": ["Prateek Narang"],
+        "level": 1,
+        "rating": 5.0,
+        "link": "/data-structures-basics"
+      },
+      {
+        "title": "Data Structures Essentials",
+        "mentors": ["Prateek Narang"],
+        "level": 2,
+        "rating": 4.7,
+        "link": "/data-structures-essentials"
+      },
+      {
+        "title": "Data Structures Level Up",
+        "mentors": ["Prateek Narang"],
+        "level": 3,
+        "rating": 4.5,
+        "link": "/data-structures-levelup"
+      }
+    ]
+  },
+  {
+    "category": "Competitive Programming",
+    "icon": "location.png",
+    "courses": [
+      {
+        "title": "Competitive Programming",
+        "mentors": ["Prateek Narang", "Apaar Kamal"],
+        "level": 1,
+        "rating": 5.0,
+        "link": "/competitive-programming"
+      },
+      {
+        "title": "Graph Theory",
+        "mentors": ["Prateek Narang", "Apaar Kamal"],
+        "level": 2,
+        "rating": 4.7,
+        "link": "/graph-theory"
+      },
+      {
+        "title": "Game Theory",
+        "mentors": ["Prateek Narang", "Apaar Kamal"],
+        "level": 3,
+        "rating": 4.5,
+        "link": "/game-theory"
+      }
+    ]
+  },
+  {
+    "category": "Python Master",
+    "icon": "presentation.png",
+    "courses": [
+      {
+        "title": "Python Master",
+        "mentors": ["Prateek Narang", "Mohit Uniyal"],
+        "level": 1,
+        "rating": 5.0,
+        "link": "/python-master"
+      },
+      {
+        "title": "Python for Data Science",
+        "mentors": ["Prateek Narang", "Mohit Uniyal"],
+        "level": 2,
+        "rating": 4.7,
+        "link": "/python-for-data-science"
+      }
+    ]
+  },
+  {
+    "category": "Other Courses",
+    "courses": [
+      {
+        "title": "Git and Github",
+        "mentors": ["Prateek Narang", "Mohit Uniyal"],
+        "level": 2,
+        "rating": 5.0,
+        "link": "git-and-github"
+      }
+    ]
+  }
+]
