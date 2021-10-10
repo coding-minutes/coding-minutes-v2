@@ -8,21 +8,24 @@
         "mentors": ["Prateek Narang"],
         "level": 1,
         "rating": 5.0,
-        "link": "/data-structures-basics"
+        "link": "/data-structures-basics",
+        "backdrop": "data_structures_basic.png"
       },
       {
         "title": "Data Structures Essentials",
         "mentors": ["Prateek Narang"],
         "level": 2,
         "rating": 4.7,
-        "link": "/data-structures-essentials"
+        "link": "/data-structures-essentials",
+        "backdrop": "data_structures_essentials.png"
       },
       {
         "title": "Data Structures Level Up",
         "mentors": ["Prateek Narang"],
         "level": 3,
         "rating": 4.5,
-        "link": "/data-structures-levelup"
+        "link": "/data-structures-levelup",
+        "backdrop": "data_structures_level_up.png"
       }
     ]
   },
@@ -35,21 +38,24 @@
         "mentors": ["Prateek Narang", "Apaar Kamal"],
         "level": 1,
         "rating": 5.0,
-        "link": "/competitive-programming"
+        "link": "/competitive-programming",
+        "backdrop": "competitive_programming.png"
       },
       {
         "title": "Graph Theory",
         "mentors": ["Prateek Narang", "Apaar Kamal"],
         "level": 2,
         "rating": 4.7,
-        "link": "/graph-theory"
+        "link": "/graph-theory",
+        "backdrop": "graph_theory.png"
       },
       {
         "title": "Game Theory",
         "mentors": ["Prateek Narang", "Apaar Kamal"],
         "level": 3,
         "rating": 4.5,
-        "link": "/game-theory"
+        "link": "/game-theory",
+        "backdrop": "game_theory.png"
       }
     ]
   },
@@ -62,14 +68,16 @@
         "mentors": ["Prateek Narang", "Mohit Uniyal"],
         "level": 1,
         "rating": 5.0,
-        "link": "/python-master"
+        "link": "/python-master",
+        "backdrop": "python_master.png"
       },
       {
         "title": "Python for Data Science",
         "mentors": ["Prateek Narang", "Mohit Uniyal"],
         "level": 2,
         "rating": 4.7,
-        "link": "/python-for-data-science"
+        "link": "/python-for-data-science",
+        "backdrop": "python_for_data_science.png"
       }
     ]
   },
@@ -81,7 +89,8 @@
         "mentors": ["Prateek Narang", "Mohit Uniyal"],
         "level": 2,
         "rating": 5.0,
-        "link": "git-and-github"
+        "link": "git-and-github",
+        "backdrop": "github.png"
       }
     ]
   }

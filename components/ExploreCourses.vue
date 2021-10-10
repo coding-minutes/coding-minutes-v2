@@ -9,7 +9,7 @@
       <button class="all-courses">All courses</button>
       <button v-for="category in Courses" :key="category.category">
         <img
-          :src="require(`@/static/${category.icon}`)"
+          :src="require(`@/assets/images/${category.icon}`)"
           v-if="category.icon"
           v-bind:alt="category.icon"
         />
@@ -37,11 +37,6 @@ import CourseCard from "@/components/CourseCard";
 export default {
   components: {
     CourseCard
-  },
-  methods: {
-    getImgUrl(img) {
-      return "require(`@/static/${img}`)";
-    }
   },
   data() {
     return {

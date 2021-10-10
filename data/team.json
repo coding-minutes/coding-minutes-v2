@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Prateek Narang",
+    "company": "Google",
+    "description": "Prateek is popular programming instructor and an ace software engineer, currently working with Google and created Coding Minutes. \n\nHe has has over 5+ years of teaching exp. and has trained over 50,000 students in classroom bootcamps & online course at a popular bootcamp in the past.",
+    "linkedin": "https://www.linkedin.com/in/prateeknarang27/",
+    "instagram": "https://www.linkedin.com/in/prateeknarang27/",
+    "backdrop": "prateek.png"
+  },
+  {
+    "name": "Mohit Uniyal",
+    "company": "Data Scientist",
+    "description": "Mohit is a Data Scientist programming instructor and co-creator at Coding Minutes. He has trained over 10000+ students in Machine Learning and AI over the last 2 years. \n\nHis expertise lies in Python, data science, machine learning and AI, and he has won many competitions. He has been doing AI based projects.",
+    "linkedin": "https://www.linkedin.com/in/prateeknarang27/",
+    "instagram": "https://www.linkedin.com/in/prateeknarang27/",
+    "backdrop": "mohit.png"
+  },
+  {
+    "name": "Apaar Kamal",
+    "company": "Google",
+    "description": "Prateek is popular programming instructor and an ace software engineer, currently working with Google and created Coding Minutes. \n\nHe has has over 5+ years of teaching exp. and has trained over 50,000 students in classroom bootcamps & online course at a popular bootcamp in the past.",
+    "linkedin": "https://www.linkedin.com/in/prateeknarang27/",
+    "instagram": "https://www.linkedin.com/in/prateeknarang27/",
+    "backdrop": "apaar.png"
+  }
+]

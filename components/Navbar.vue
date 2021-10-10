@@ -1,6 +1,6 @@
 <template>
   <nav class="navbar">
-    <img src="https://minio.codingminutes.com/assets/cm-logo-oneline.svg"/>
+    <img src="https://minio.codingminutes.com/assets/cm-logo-oneline.svg" />
     <div class="link-box">
       <div class="links">
         <a href="" class="nav-link">Home</a>
@@ -18,29 +18,27 @@
   </nav>
 </template>
 
-<script>
-</script>
-
+<script></script>
 
 <style scoped>
-  .navbar {
-    display: flex;
-    justify-content: space-around;
-    height: 10vh;
-    position: fixed;
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  height: 10vh;
+  /* position: fixed;
     top: 0;
     left: 0;
-    right: 0;
-    padding: 0.5em 2em;
-  }
+    right: 0; */
+  padding: 0.5em 2em;
+}
 
-  .link-box {
-    display: flex;
-    justify-content: space-around;
-  }
+.link-box {
+  display: flex;
+  justify-content: space-around;
+}
 
-  .login-button {
-    height: 4em;
-    width: 7em;
-  }
+.login-button {
+  height: 4em;
+  width: 7em;
+}
 </style>

@@ -1,6 +1,11 @@
 <template>
   <div class="course-card">
-    <div class="backdrop"></div>
+    <div class="backdrop">
+      <img
+        class="course-card-backdrop"
+        :src="require(`@/assets/images/courses_backdrops/${course.backdrop}`)"
+      />
+    </div>
     <div class="details">
       <span class="level">
         <template v-if="course.level == 1">
@@ -43,5 +48,8 @@ export default {
 }
 .course-card .details > span {
   display: block;
+}
+.course-card-backdrop {
+  width: 100%;
 }
 </style>
