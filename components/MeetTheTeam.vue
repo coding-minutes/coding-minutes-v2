@@ -1,7 +1,9 @@
 <template>
-  <div>
+  <div class="section meet-the-team">
     <h1>Meet the team 😎</h1>
-    <MentorCard v-for="mentor in team" :key="mentor.name" :mentor="mentor" />
+    <div class="row">
+      <MentorCard v-for="mentor in team" :key="mentor.name" :mentor="mentor" />
+    </div>
   </div>
 </template>
 
@@ -20,4 +22,12 @@ export default {
   }
 };
 </script>
-<style></style>
+<style>
+.meet-the-team {
+  min-height: 75vh;
+}
+.meet-the-team h1 {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+</style>

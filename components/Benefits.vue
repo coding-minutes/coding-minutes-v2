@@ -1,7 +1,12 @@
 <template>
-  <div>
-    <h2>Udemy + Coding minutes advantage</h2>
-    <h4>Now spend less than a Pizza 🍕, Learn more than ever💡</h4>
+  <div class="section benefits">
+    <h2 class="heading">
+      <img :src="require('@/assets/images/udemy.png')" />
+      Udemy + Coding minutes advantage
+    </h2>
+    <h4 class="subheading">
+      Now spend less than a Pizza 🍕, Learn more than ever💡
+    </h4>
 
     <div class="benefits-list">
       <BenefitCard
@@ -28,8 +33,28 @@ export default {
 };
 </script>
 <style>
+.benefits {
+  margin-top: 5rem;
+}
 .benefits-list {
   display: grid;
-  grid-template-columns: 2;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: end;
+  background: #f9f9f9;
+  border-radius: 20px;
+  padding: 4rem 4rem;
+  gap: 45px;
+}
+.benefits .heading {
+  text-align: center;
+  font-size: 2.4rem;
+}
+.benefits .heading img {
+  height: 2rem;
+}
+.benefits .subheading {
+  color: #151518cc;
+  text-align: center;
+  font-size: 1.4rem;
 }
 </style>

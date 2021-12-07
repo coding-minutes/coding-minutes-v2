@@ -9,6 +9,7 @@
       <CampusCaptain />
       <MeetTheTeam />
       <FAQs />
+      <Footer />
     </div>
   </div>
 </template>
@@ -22,6 +23,7 @@ import Benefits from "@/components/Benefits.vue";
 import CampusCaptain from "@/components/CampusCaptain.vue";
 import MeetTheTeam from "@/components/MeetTheTeam.vue";
 import FAQs from "@/components/FAQs.vue";
+import Footer from "@/components/Footer.vue";
 
 export default {
   components: {
@@ -32,9 +34,18 @@ export default {
     Benefits,
     CampusCaptain,
     MeetTheTeam,
-    FAQs
+    FAQs,
+    Footer
   }
 };
 </script>
 
-<style scoped></style>
+<style>
+html,
+button {
+  font-family: "Nexa Bold", "Verdana", "Helvetica", "sans-serif";
+}
+.section {
+  padding: 0.2rem 5vw;
+}
+</style>

@@ -1,9 +1,9 @@
 <template>
-  <nav class="navbar">
-    <img src="https://minio.codingminutes.com/assets/cm-logo-oneline.svg" />
+  <nav class="navbar section">
+    <img :src="require(`@/assets/images/cm_logo.png`)" class="logo" />
     <div class="link-box">
       <div class="links">
-        <a href="" class="nav-link">Home</a>
+        <a href="" class="nav-link home">Home</a>
         <a href="" class="nav-link">Courses</a>
         <a href="" class="nav-link">Events</a>
         <a href="" class="nav-link">Online IDE</a>
@@ -11,7 +11,7 @@
         <a href="" class="nav-link">About us</a>
         <a href="" class="nav-link">Contact Us</a>
       </div>
-      <button class="login-button">
+      <button class="login-button btn btn-white">
         Login now
       </button>
     </div>
@@ -20,25 +20,45 @@
 
 <script></script>
 
-<style scoped>
+<style>
 .navbar {
   display: flex;
   justify-content: space-around;
-  height: 10vh;
-  /* position: fixed;
-    top: 0;
-    left: 0;
-    right: 0; */
-  padding: 0.5em 2em;
+  align-items: center;
+  height: 8vh;
+  border-bottom: 1px solid #eaeaea;
 }
 
 .link-box {
   display: flex;
+  justify-content: end;
+  align-items: center;
+  width: 74vw;
+}
+
+.link-box .links {
+  display: flex;
   justify-content: space-around;
+  align-items: center;
+  width: 70%;
+}
+
+.link-box .links .nav-link {
+  text-decoration: none;
+  color: #151518;
+  font-family: "Nexa Light";
+}
+
+.link-box .links .nav-link.home {
+  font-family: inherit;
 }
 
 .login-button {
-  height: 4em;
-  width: 7em;
+  white-space: nowrap;
+  background-color: white;
+}
+
+.navbar .logo {
+  height: 2vh;
 }
 </style>

@@ -1,36 +1,16 @@
 <template>
-  <div>
+  <div class="section faq-section">
     <h1>
       Frequently asked questions 👋
     </h1>
-    <FaqCard v-for="faq in faqs" :key="faq.question" :faq="faq" />
+    <div class="faq-container">
+      <FaqCard v-for="faq in faqs" :key="faq.question" :faq="faq" />
+    </div>
   </div>
 </template>
 <script>
 import FaqCard from "@/components/FaqCard.vue";
-
-const faqs = [
-  {
-    question: "How long is the course access?",
-    answer:
-      "The course videos and practice problems come with a lifetime access. Access it anytime, anywhere."
-  },
-  {
-    question: "Will there be any Certificate of completion?",
-    answer:
-      "Yes, you will get an instructor signed certificate from Udemy after finishing this course."
-  },
-  {
-    question: "What are the pre-requisties for this course? ",
-    answer:
-      "Basics of C++, and basic idea of data structures is expected for this course. I am planning to work on other Courses which will also cover these basics."
-  },
-  {
-    question: " I have already taken your other courses, should I do this?",
-    answer:
-      "This course is totally re-designed, with interative lectures, newer problems, and is focussed on problem solving. If you want to revisit topics in short time, this course is for you."
-  }
-];
+import faqs from "@/data/faqs";
 
 export default {
   components: {
@@ -43,4 +23,15 @@ export default {
   }
 };
 </script>
-<style lang=""></style>
+<style scoped>
+.faq-section {
+  margin: 0 auto;
+}
+.faq-section h1 {
+  text-align: center;
+}
+.faq-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+</style>

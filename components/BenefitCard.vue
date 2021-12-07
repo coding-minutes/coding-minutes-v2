@@ -13,9 +13,18 @@ export default {
 </script>
 <style>
 .benefit-card {
-  border: 1px solid black;
+  background: white;
+  border: none;
+  border-radius: 20px;
   height: 10rem;
   width: 10rem;
   padding: 2rem;
+}
+.benefit-card h5 {
+  font-size: 18px;
+  color: #5b5b5d;
+}
+.benefit-card img {
+  height: 3.6rem;
 }
 </style>
