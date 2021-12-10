@@ -61,5 +61,6 @@ export default {};
   border: 1px solid;
   outline: linear-gradient(90deg, #5848ea 0%, #9549eb 100%);
   margin: 0 1rem;
+  background: white;
 }
 </style>

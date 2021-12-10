@@ -5,27 +5,138 @@
     "courses": [
       {
         "title": "Data Structures Basics",
-        "mentors": ["Prateek Narang"],
+        "mentors": ["Prateek Narang", "Apaar Kamal"],
         "level": 1,
-        "rating": 5.0,
-        "link": "/data-structures-basics",
-        "backdrop": "data_structures_basic.png"
+        "rating": 5,
+        "slug": "data-structures-basics",
+        "backdrop": "data_structures_basic.png",
+        "youtube": "https://www.youtube.com/embed/bN4erfb3cKw",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam corrupti aliquid nihil ex perferendis at doloribus ut quo quae a. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras molestie massa ac luctus pulvinar. ",
+        "currentprice": 420,
+        "oldprice": "18,560",
+        "discountcoupon": "JULY95",
+        "udemy": "https://www.udemy.com/course/cpp-data-structures-algorithms-prateek-narang/?referralCode=81435EFB490485911C4A",
+        "learnings": [
+          "Accelerate your algorithmic thinking",
+          "Learn to optimise brute force solutions",
+          "Learn to apply data structures",
+          "Learn to write complex codes",
+          "150+ carefully curated problems",
+          "Analysis of space-time complexity",
+          "Using C++ Standard Template Library",
+          "Become a 10x Problem Solver",
+          "Sliding Window, Hashing, Maps & Sets",
+          "Master Dynamic Programming & Graphs",
+          "BONUS : Build a LRU Cache",
+          "Practice Questions on all important topics"
+        ],
+        "overview": [
+          "Do you find yourself feeling like you get \"stuck\" every time you get a coding question?",
+          "Welcome to Data Structures & Algorithms, Level up Course the only course that provides you an ultimate practice on problem solving process and helping you to take your data structures & algorithms to the next level.",
+          "The course is taught by an expert instructor Prateek Narang from Google."
+        ],
+        "topics": [
+          "Arrays & Vectors",
+          "String Problems",
+          "Sliding Window problem",
+          "Sorting & Searching",
+          "Binary Tree",
+          "Binary Search",
+          "Recursion problem",
+          "Linked list problem",
+          "Stack & Queue",
+          "Graph Algorithms"
+        ]
       },
       {
         "title": "Data Structures Essentials",
         "mentors": ["Prateek Narang"],
         "level": 2,
         "rating": 4.7,
-        "link": "/data-structures-essentials",
-        "backdrop": "data_structures_essentials.png"
+        "slug": "data-structures-essentials",
+        "backdrop": "data_structures_essentials.png",
+        "youtube": "https://www.youtube.com/embed/bN4erfb3cKw",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam corrupti aliquid nihil ex perferendis at doloribus ut quo quae a. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras molestie massa ac luctus pulvinar. ",
+        "currentprice": 420,
+        "oldprice": "18,560",
+        "discountcoupon": "JULY95",
+        "udemy": "https://www.udemy.com/course/cpp-data-structures-algorithms-prateek-narang/?referralCode=81435EFB490485911C4A",
+        "learnings": [
+          "Accelerate your algorithmic thinking",
+          "Learn to optimise brute force solutions",
+          "Learn to apply data structures",
+          "Learn to write complex codes",
+          "150+ carefully curated problems",
+          "Analysis of space-time complexity",
+          "Using C++ Standard Template Library",
+          "Become a 10x Problem Solver",
+          "Sliding Window, Hashing, Maps & Sets",
+          "Master Dynamic Programming & Graphs",
+          "BONUS : Build a LRU Cache",
+          "Practice Questions on all important topics"
+        ],
+        "overview": [
+          "Do you find yourself feeling like you get \"stuck\" every time you get a coding question?",
+          "Welcome to Data Structures & Algorithms, Level up Course the only course that provides you an ultimate practice on problem solving process and helping you to take your data structures & algorithms to the next level.",
+          "The course is taught by an expert instructor Prateek Narang from Google."
+        ],
+        "topics": [
+          "Arrays & Vectors",
+          "String Problems",
+          "Sliding Window problem",
+          "Sorting & Searching",
+          "Binary Tree",
+          "Binary Search",
+          "Recursion problem",
+          "Linked list problem",
+          "Stack & Queue",
+          "Graph Algorithms"
+        ]
       },
       {
         "title": "Data Structures Level Up",
         "mentors": ["Prateek Narang"],
         "level": 3,
         "rating": 4.5,
-        "link": "/data-structures-levelup",
-        "backdrop": "data_structures_level_up.png"
+        "slug": "data-structures-levelup",
+        "backdrop": "data_structures_level_up.png",
+        "youtube": "https://www.youtube.com/embed/bN4erfb3cKw",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam corrupti aliquid nihil ex perferendis at doloribus ut quo quae a. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras molestie massa ac luctus pulvinar. ",
+        "currentprice": 420,
+        "oldprice": "18,560",
+        "discountcoupon": "JULY95",
+        "udemy": "https://www.udemy.com/course/cpp-data-structures-algorithms-prateek-narang/?referralCode=81435EFB490485911C4A",
+        "learnings": [
+          "Accelerate your algorithmic thinking",
+          "Learn to optimise brute force solutions",
+          "Learn to apply data structures",
+          "Learn to write complex codes",
+          "150+ carefully curated problems",
+          "Analysis of space-time complexity",
+          "Using C++ Standard Template Library",
+          "Become a 10x Problem Solver",
+          "Sliding Window, Hashing, Maps & Sets",
+          "Master Dynamic Programming & Graphs",
+          "BONUS : Build a LRU Cache",
+          "Practice Questions on all important topics"
+        ],
+        "overview": [
+          "Do you find yourself feeling like you get \"stuck\" every time you get a coding question?",
+          "Welcome to Data Structures & Algorithms, Level up Course the only course that provides you an ultimate practice on problem solving process and helping you to take your data structures & algorithms to the next level.",
+          "The course is taught by an expert instructor Prateek Narang from Google."
+        ],
+        "topics": [
+          "Arrays & Vectors",
+          "String Problems",
+          "Sliding Window problem",
+          "Sorting & Searching",
+          "Binary Tree",
+          "Binary Search",
+          "Recursion problem",
+          "Linked list problem",
+          "Stack & Queue",
+          "Graph Algorithms"
+        ]
       }
     ]
   },
@@ -37,25 +148,136 @@
         "title": "Competitive Programming",
         "mentors": ["Prateek Narang", "Apaar Kamal"],
         "level": 1,
-        "rating": 5.0,
-        "link": "/competitive-programming",
-        "backdrop": "competitive_programming.png"
+        "rating": 5,
+        "slug": "competitive-programming",
+        "backdrop": "competitive_programming.png",
+        "youtube": "https://www.youtube.com/embed/bN4erfb3cKw",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam corrupti aliquid nihil ex perferendis at doloribus ut quo quae a. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras molestie massa ac luctus pulvinar. ",
+        "currentprice": 420,
+        "oldprice": "18,560",
+        "discountcoupon": "JULY95",
+        "udemy": "https://www.udemy.com/course/cpp-data-structures-algorithms-prateek-narang/?referralCode=81435EFB490485911C4A",
+        "learnings": [
+          "Accelerate your algorithmic thinking",
+          "Learn to optimise brute force solutions",
+          "Learn to apply data structures",
+          "Learn to write complex codes",
+          "150+ carefully curated problems",
+          "Analysis of space-time complexity",
+          "Using C++ Standard Template Library",
+          "Become a 10x Problem Solver",
+          "Sliding Window, Hashing, Maps & Sets",
+          "Master Dynamic Programming & Graphs",
+          "BONUS : Build a LRU Cache",
+          "Practice Questions on all important topics"
+        ],
+        "overview": [
+          "Do you find yourself feeling like you get \"stuck\" every time you get a coding question?",
+          "Welcome to Data Structures & Algorithms, Level up Course the only course that provides you an ultimate practice on problem solving process and helping you to take your data structures & algorithms to the next level.",
+          "The course is taught by an expert instructor Prateek Narang from Google."
+        ],
+        "topics": [
+          "Arrays & Vectors",
+          "String Problems",
+          "Sliding Window problem",
+          "Sorting & Searching",
+          "Binary Tree",
+          "Binary Search",
+          "Recursion problem",
+          "Linked list problem",
+          "Stack & Queue",
+          "Graph Algorithms"
+        ]
       },
       {
         "title": "Graph Theory",
         "mentors": ["Prateek Narang", "Apaar Kamal"],
         "level": 2,
         "rating": 4.7,
-        "link": "/graph-theory",
-        "backdrop": "graph_theory.png"
+        "slug": "graph-theory",
+        "backdrop": "graph_theory.png",
+        "youtube": "https://www.youtube.com/embed/bN4erfb3cKw",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam corrupti aliquid nihil ex perferendis at doloribus ut quo quae a. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras molestie massa ac luctus pulvinar. ",
+        "currentprice": 420,
+        "oldprice": "18,560",
+        "discountcoupon": "JULY95",
+        "udemy": "https://www.udemy.com/course/cpp-data-structures-algorithms-prateek-narang/?referralCode=81435EFB490485911C4A",
+        "learnings": [
+          "Accelerate your algorithmic thinking",
+          "Learn to optimise brute force solutions",
+          "Learn to apply data structures",
+          "Learn to write complex codes",
+          "150+ carefully curated problems",
+          "Analysis of space-time complexity",
+          "Using C++ Standard Template Library",
+          "Become a 10x Problem Solver",
+          "Sliding Window, Hashing, Maps & Sets",
+          "Master Dynamic Programming & Graphs",
+          "BONUS : Build a LRU Cache",
+          "Practice Questions on all important topics"
+        ],
+        "overview": [
+          "Do you find yourself feeling like you get \"stuck\" every time you get a coding question?",
+          "Welcome to Data Structures & Algorithms, Level up Course the only course that provides you an ultimate practice on problem solving process and helping you to take your data structures & algorithms to the next level.",
+          "The course is taught by an expert instructor Prateek Narang from Google."
+        ],
+        "topics": [
+          "Arrays & Vectors",
+          "String Problems",
+          "Sliding Window problem",
+          "Sorting & Searching",
+          "Binary Tree",
+          "Binary Search",
+          "Recursion problem",
+          "Linked list problem",
+          "Stack & Queue",
+          "Graph Algorithms"
+        ]
       },
       {
         "title": "Game Theory",
         "mentors": ["Prateek Narang", "Apaar Kamal"],
         "level": 3,
         "rating": 4.5,
-        "link": "/game-theory",
-        "backdrop": "game_theory.png"
+        "slug": "game-theory",
+        "backdrop": "game_theory.png",
+        "youtube": "https://www.youtube.com/embed/bN4erfb3cKw",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam corrupti aliquid nihil ex perferendis at doloribus ut quo quae a. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras molestie massa ac luctus pulvinar. ",
+        "currentprice": 420,
+        "oldprice": "18,560",
+        "discountcoupon": "JULY95",
+        "udemy": "https://www.udemy.com/course/cpp-data-structures-algorithms-prateek-narang/?referralCode=81435EFB490485911C4A",
+        "learnings": [
+          "Accelerate your algorithmic thinking",
+          "Learn to optimise brute force solutions",
+          "Learn to apply data structures",
+          "Learn to write complex codes",
+          "150+ carefully curated problems",
+          "Analysis of space-time complexity",
+          "Using C++ Standard Template Library",
+          "Become a 10x Problem Solver",
+          "Sliding Window, Hashing, Maps & Sets",
+          "Master Dynamic Programming & Graphs",
+          "BONUS : Build a LRU Cache",
+          "Practice Questions on all important topics"
+        ],
+        "overview": [
+          "Do you find yourself feeling like you get \"stuck\" every time you get a coding question?",
+          "Welcome to Data Structures & Algorithms, Level up Course the only course that provides you an ultimate practice on problem solving process and helping you to take your data structures & algorithms to the next level.",
+          "The course is taught by an expert instructor Prateek Narang from Google."
+        ],
+        "topics": [
+          "Arrays & Vectors",
+          "String Problems",
+          "Sliding Window problem",
+          "Sorting & Searching",
+          "Binary Tree",
+          "Binary Search",
+          "Recursion problem",
+          "Linked list problem",
+          "Stack & Queue",
+          "Graph Algorithms"
+        ]
       }
     ]
   },
@@ -67,17 +289,91 @@
         "title": "Python Master",
         "mentors": ["Prateek Narang", "Mohit Uniyal"],
         "level": 1,
-        "rating": 5.0,
-        "link": "/python-master",
-        "backdrop": "python_master.png"
+        "rating": 5,
+        "slug": "python-master",
+        "backdrop": "python_master.png",
+        "youtube": "https://www.youtube.com/embed/bN4erfb3cKw",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam corrupti aliquid nihil ex perferendis at doloribus ut quo quae a. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras molestie massa ac luctus pulvinar. ",
+        "currentprice": 420,
+        "oldprice": "18,560",
+        "discountcoupon": "JULY95",
+        "udemy": "https://www.udemy.com/course/cpp-data-structures-algorithms-prateek-narang/?referralCode=81435EFB490485911C4A",
+        "learnings": [
+          "Accelerate your algorithmic thinking",
+          "Learn to optimise brute force solutions",
+          "Learn to apply data structures",
+          "Learn to write complex codes",
+          "150+ carefully curated problems",
+          "Analysis of space-time complexity",
+          "Using C++ Standard Template Library",
+          "Become a 10x Problem Solver",
+          "Sliding Window, Hashing, Maps & Sets",
+          "Master Dynamic Programming & Graphs",
+          "BONUS : Build a LRU Cache",
+          "Practice Questions on all important topics"
+        ],
+        "overview": [
+          "Do you find yourself feeling like you get \"stuck\" every time you get a coding question?",
+          "Welcome to Data Structures & Algorithms, Level up Course the only course that provides you an ultimate practice on problem solving process and helping you to take your data structures & algorithms to the next level.",
+          "The course is taught by an expert instructor Prateek Narang from Google."
+        ],
+        "topics": [
+          "Arrays & Vectors",
+          "String Problems",
+          "Sliding Window problem",
+          "Sorting & Searching",
+          "Binary Tree",
+          "Binary Search",
+          "Recursion problem",
+          "Linked list problem",
+          "Stack & Queue",
+          "Graph Algorithms"
+        ]
       },
       {
         "title": "Python for Data Science",
         "mentors": ["Prateek Narang", "Mohit Uniyal"],
         "level": 2,
         "rating": 4.7,
-        "link": "/python-for-data-science",
-        "backdrop": "python_for_data_science.png"
+        "slug": "python-for-data-science",
+        "backdrop": "python_for_data_science.png",
+        "youtube": "https://www.youtube.com/embed/bN4erfb3cKw",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam corrupti aliquid nihil ex perferendis at doloribus ut quo quae a. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras molestie massa ac luctus pulvinar. ",
+        "currentprice": 420,
+        "oldprice": "18,560",
+        "discountcoupon": "JULY95",
+        "udemy": "https://www.udemy.com/course/cpp-data-structures-algorithms-prateek-narang/?referralCode=81435EFB490485911C4A",
+        "learnings": [
+          "Accelerate your algorithmic thinking",
+          "Learn to optimise brute force solutions",
+          "Learn to apply data structures",
+          "Learn to write complex codes",
+          "150+ carefully curated problems",
+          "Analysis of space-time complexity",
+          "Using C++ Standard Template Library",
+          "Become a 10x Problem Solver",
+          "Sliding Window, Hashing, Maps & Sets",
+          "Master Dynamic Programming & Graphs",
+          "BONUS : Build a LRU Cache",
+          "Practice Questions on all important topics"
+        ],
+        "overview": [
+          "Do you find yourself feeling like you get \"stuck\" every time you get a coding question?",
+          "Welcome to Data Structures & Algorithms, Level up Course the only course that provides you an ultimate practice on problem solving process and helping you to take your data structures & algorithms to the next level.",
+          "The course is taught by an expert instructor Prateek Narang from Google."
+        ],
+        "topics": [
+          "Arrays & Vectors",
+          "String Problems",
+          "Sliding Window problem",
+          "Sorting & Searching",
+          "Binary Tree",
+          "Binary Search",
+          "Recursion problem",
+          "Linked list problem",
+          "Stack & Queue",
+          "Graph Algorithms"
+        ]
       }
     ]
   },
@@ -88,9 +384,47 @@
         "title": "Git and Github",
         "mentors": ["Prateek Narang", "Mohit Uniyal"],
         "level": 2,
-        "rating": 5.0,
-        "link": "git-and-github",
-        "backdrop": "github.png"
+        "rating": 5,
+        "slug": "data-structures-basics",
+        "backdrop": "github.png",
+        "youtube": "https://www.youtube.com/embed/bN4erfb3cKw",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam corrupti aliquid nihil ex perferendis at doloribus ut quo quae a. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras molestie massa ac luctus pulvinar. ",
+        "currentprice": 420,
+        "oldprice": "18,560",
+        "discountcoupon": "JULY95",
+        "udemy": "https://www.udemy.com/course/cpp-data-structures-algorithms-prateek-narang/?referralCode=81435EFB490485911C4A",
+        "learnings": [
+          "Accelerate your algorithmic thinking",
+          "Learn to optimise brute force solutions",
+          "Learn to apply data structures",
+          "Learn to write complex codes",
+          "150+ carefully curated problems",
+          "Analysis of space-time complexity",
+          "Using C++ Standard Template Library",
+          "Become a 10x Problem Solver",
+          "Sliding Window, Hashing, Maps & Sets",
+          "Master Dynamic Programming & Graphs",
+          "BONUS : Build a LRU Cache",
+          "Practice Questions on all important topics"
+        ],
+        "overview": [
+          "Do you find yourself feeling like you get \"stuck\" every time you get a coding question?",
+          "Welcome to Data Structures & Algorithms, Level up Course the only course that provides you an ultimate practice on problem solving process and helping you to take your data structures & algorithms to the next level.",
+          "The course is taught by an expert instructor Prateek Narang from Google."
+        ],
+        "topics": [
+          "Arrays & Vectors",
+          "String Problems",
+          "Sliding Window problem",
+          "Sorting & Searching",
+          "Binary Tree",
+          "Binary Search",
+          "Recursion problem",
+          "Linked list problem",
+          "Stack & Queue",
+          "Graph Algorithms"
+        ],
+        "link": "git-and-github"
       }
     ]
   }

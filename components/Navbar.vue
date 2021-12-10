@@ -1,12 +1,21 @@
 <template>
   <nav class="navbar section">
-    <img :src="require(`@/assets/images/cm_logo.png`)" class="logo" />
+    <NuxtLink to="/">
+      <img :src="require(`@/assets/images/cm_logo.png`)" class="logo" />
+    </NuxtLink>
     <div class="link-box">
       <div class="links">
         <a href="" class="nav-link home">Home</a>
         <a href="" class="nav-link">Courses</a>
         <a href="" class="nav-link">Events</a>
-        <a href="" class="nav-link">Online IDE</a>
+        <a
+          href="https://ide.codingminutes.com/"
+          class="nav-link"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Online IDE
+        </a>
         <a href="" class="nav-link">Campus Captain</a>
         <a href="" class="nav-link">About us</a>
         <a href="" class="nav-link">Contact Us</a>

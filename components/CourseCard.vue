@@ -30,9 +30,11 @@
         <span class="rating">
           {{ course.rating }}
         </span>
-        <button class="explore-now">
-          Explore now
-        </button>
+        <NuxtLink :to="'/' + course.slug">
+          <button class="explore-now">
+            Explore now
+          </button>
+        </NuxtLink>
       </div>
     </div>
   </div>
