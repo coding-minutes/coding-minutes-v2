@@ -1,0 +1,65 @@
+[
+  {
+    "slug": "data-structures-basics",
+    "udemy": "https://www.udemy.com/course/cpp-data-structures-algorithms-prateek-narang/?referralCode=81435EFB490485911C4A",
+    "currentprice": 420,
+    "oldprice": "18,560",
+    "discountcoupon": "JULY95"
+  },
+  {
+    "slug": "data-structures-essentials",
+    "currentprice": 420,
+    "oldprice": "18,560",
+    "discountcoupon": "JULY95",
+    "udemy": "https://www.udemy.com/course/cpp-data-structures-algorithms-prateek-narang/?referralCode=81435EFB490485911C4A"
+  },
+  {
+    "slug": "data-structures-levelup",
+    "currentprice": 420,
+    "oldprice": "18,560",
+    "discountcoupon": "JULY95",
+    "udemy": "https://www.udemy.com/course/cpp-data-structures-algorithms-prateek-narang/?referralCode=81435EFB490485911C4A"
+  },
+  {
+    "slug": "competitive-programming",
+    "currentprice": 420,
+    "oldprice": "18,560",
+    "discountcoupon": "JULY95",
+    "udemy": "https://www.udemy.com/course/cpp-data-structures-algorithms-prateek-narang/?referralCode=81435EFB490485911C4A"
+  },
+  {
+    "slug": "graph-theory",
+    "currentprice": 420,
+    "oldprice": "18,560",
+    "discountcoupon": "JULY95",
+    "udemy": "https://www.udemy.com/course/cpp-data-structures-algorithms-prateek-narang/?referralCode=81435EFB490485911C4A"
+  },
+  {
+    "slug": "game-theory",
+    "currentprice": 420,
+    "oldprice": "18,560",
+    "discountcoupon": "JULY95",
+    "udemy": "https://www.udemy.com/course/cpp-data-structures-algorithms-prateek-narang/?referralCode=81435EFB490485911C4A"
+  },
+  {
+    "slug": "python-master",
+    "currentprice": 420,
+    "oldprice": "18,560",
+    "discountcoupon": "JULY95",
+    "udemy": "https://www.udemy.com/course/cpp-data-structures-algorithms-prateek-narang/?referralCode=81435EFB490485911C4A"
+  },
+  {
+    "slug": "python-for-data-science",
+    "currentprice": 420,
+    "oldprice": "18,560",
+    "discountcoupon": "JULY95",
+    "udemy": "https://www.udemy.com/course/cpp-data-structures-algorithms-prateek-narang/?referralCode=81435EFB490485911C4A"
+  },
+  {
+    "slug": "data-structures-basics",
+    "currentprice": 420,
+    "oldprice": "18,560",
+    "discountcoupon": "JULY95",
+    "udemy": "https://www.udemy.com/course/cpp-data-structures-algorithms-prateek-narang/?referralCode=81435EFB490485911C4A"
+  }
+]

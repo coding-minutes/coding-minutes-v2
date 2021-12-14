@@ -8,7 +8,8 @@
     ],
     "linkedin": "https://www.linkedin.com/in/prateeknarang27/",
     "instagram": "https://www.linkedin.com/in/prateeknarang27/",
-    "backdrop": "prateek.png"
+    "backdrop": "prateek.png",
+    "username": "prateek"
   },
   {
     "name": "Mohit Uniyal",
@@ -19,7 +20,8 @@
     ],
     "linkedin": "https://www.linkedin.com/in/prateeknarang27/",
     "instagram": "https://www.linkedin.com/in/prateeknarang27/",
-    "backdrop": "mohit.png"
+    "backdrop": "mohit.png",
+    "username": "mohit"
   },
   {
     "name": "Apaar Kamal",
@@ -29,6 +31,7 @@
       "Magnam quibusdam sequi obcaecati laboriosam, nam eos harum recusandae, facilis tempora mollitia repellat sunt! Fugiat eaque sapiente doloribus."
     ],
     "linkedin": "https://www.linkedin.com/in/prateeknarang27/",
-    "backdrop": "apaar.png"
+    "backdrop": "apaar.png",
+    "username": "apaar"
   }
 ]

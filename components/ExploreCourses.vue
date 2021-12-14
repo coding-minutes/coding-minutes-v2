@@ -1,13 +1,25 @@
 <template>
-  <div class="section explore-learning-path">
+  <div class="section explore-learning-path" id="courses">
     <h1>Explore learning paths 🔥</h1>
     <span class="tagline">
       Begin the journey for your dream job with these industry vetted learning
       paths.
     </span>
     <div class="explore-buttons">
-      <button class="all-courses">All courses</button>
-      <button v-for="category in Courses" :key="category.category">
+      <button
+        class="category-button"
+        @click="changeCategory(0)"
+        v-bind:class="{ active: selectedCategory === 0 }"
+      >
+        All courses
+      </button>
+      <button
+        class="category-button"
+        v-bind:class="{ active: selectedCategory === category.id }"
+        v-for="category in Courses"
+        :key="category.category"
+        @click="changeCategory(category.id)"
+      >
         <img
           :src="require(`@/assets/images/${category.icon}`)"
           v-if="category.icon"
@@ -18,7 +30,7 @@
     </div>
 
     <section
-      v-for="category in Courses"
+      v-for="category in CoursesData"
       :key="category.category"
       class="category"
     >
@@ -44,8 +56,20 @@ export default {
   },
   data() {
     return {
-      Courses
+      Courses,
+      selectedCategory: 0 // 0 represents all categories
     };
+  },
+  methods: {
+    changeCategory(newCategory) {
+      this.selectedCategory = newCategory;
+    }
+  },
+  computed: {
+    CoursesData() {
+      if (this.selectedCategory == 0) return Courses;
+      return Courses.filter(category => category.id === this.selectedCategory);
+    }
   }
 };
 </script>
@@ -65,7 +89,7 @@ export default {
   width: 100%;
   justify-content: space-between;
 }
-.explore-buttons button {
+.explore-buttons .category-button {
   margin: 0.5rem 0;
   padding: 0.2rem 2.5rem;
   height: 3.5rem;
@@ -80,16 +104,16 @@ export default {
   font-size: 1rem;
   cursor: pointer;
 }
-.explore-buttons button:hover {
+.explore-buttons .category-button:hover {
   background: white;
 }
-button.all-courses {
+.category-button.active {
   color: #5848ea;
   background: white;
   border: none;
   outline: none;
 }
-.explore-buttons button img {
+.explore-buttons .category-button img {
   height: 65%;
   margin-right: 2%;
 }

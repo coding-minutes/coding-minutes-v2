@@ -21,9 +21,7 @@
       <span class="title">{{ course.title }}</span>
       <span class="mentors">
         Mentors:
-        <span v-for="mentor in course.mentors" :key="mentor">
-          {{ mentor }}
-        </span>
+        {{ instructors.join(", ") }}
       </span>
       <div class="review-explore-box">
         <!-- TODO: Star rating here -->
@@ -40,8 +38,19 @@
   </div>
 </template>
 <script>
+import Team from "@/data/team.json";
+
 export default {
-  props: ["course"]
+  props: ["course"],
+  data() {
+    const mentors = this.course.mentors;
+    const instructors = mentors.map(mentor => {
+      return Team.find(member => member.username === mentor).name;
+    });
+    return {
+      instructors
+    };
+  }
 };
 </script>
 <style>

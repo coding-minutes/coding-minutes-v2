@@ -73,7 +73,7 @@ export default {
   data() {
     const course = this.course;
     const mentors = course.mentors.map(mentor =>
-      Team.find(member => member.name.toLowerCase() === mentor.toLowerCase())
+      Team.find(member => member.username === mentor)
     );
     return { mentors };
   }

@@ -5,9 +5,22 @@
     </NuxtLink>
     <div class="link-box">
       <div class="links">
-        <a href="" class="nav-link home">Home</a>
-        <a href="" class="nav-link">Courses</a>
-        <a href="" class="nav-link">Events</a>
+        <nuxt-link
+          :to="{
+            path: '/',
+            hash: '#courses'
+          }"
+          class="nav-link"
+          >Courses</nuxt-link
+        >
+        <a
+          href="https://www.scaler.com/"
+          class="nav-link"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Live Courses
+        </a>
         <a
           href="https://ide.codingminutes.com/"
           class="nav-link"
@@ -17,12 +30,12 @@
           Online IDE
         </a>
         <a href="" class="nav-link">Campus Captain</a>
-        <a href="" class="nav-link">About us</a>
-        <a href="" class="nav-link">Contact Us</a>
+        <!-- <a href="" class="nav-link">About us</a>
+        <a href="" class="nav-link">Contact Us</a> -->
       </div>
-      <button class="login-button btn btn-white">
+      <!-- <button class="login-button btn btn-white">
         Login now
-      </button>
+      </button> -->
     </div>
   </nav>
 </template>

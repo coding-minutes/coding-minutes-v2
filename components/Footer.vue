@@ -15,7 +15,14 @@
       <a href="" class="footer-link">Events</a>
       <a href="" class="footer-link">Courses</a>
       <a href="" class="footer-link">Campus Captain</a>
-      <a href="" class="footer-link">Online IDE</a>
+      <a
+        href="https://ide.codingminutes.com/"
+        class="footer-link"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Online IDE
+      </a>
       <a href="" class="footer-link">Contact Us</a>
       <a href="" class="footer-link">Get in touch</a>
     </div>

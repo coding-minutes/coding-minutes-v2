@@ -16,14 +16,14 @@
         {{ course.description }}
       </p>
       <div class="pricing row">
-        <span class="current">₹ {{ course.currentprice }}</span>
-        <span class="oldprice">₹ {{ course.oldprice }}</span>
-        <span class="discountcoupon btn" v-if="course.discountcoupon">
-          Use code: {{ course.discountcoupon }}
+        <span class="current">₹ {{ courseMeta.currentprice }}</span>
+        <span class="oldprice">₹ {{ courseMeta.oldprice }}</span>
+        <span class="discountcoupon btn" v-if="courseMeta.discountcoupon">
+          Use code: {{ courseMeta.discountcoupon }}
         </span>
       </div>
       <div class="udemy-ratings-box row">
-        <a :href="course.udemy" target="_blank" rel="noopener noreferrer">
+        <a :href="courseMeta.udemy" target="_blank" rel="noopener noreferrer">
           <button class="btn btn-purple">
             Enroll now on Udemy
           </button>
@@ -45,8 +45,18 @@
   </div>
 </template>
 <script>
+import CourseMeta from "@/data/courses_meta.json";
+
 export default {
-  props: ["course", "category"]
+  props: ["course", "category"],
+  data() {
+    const courseMetadata = CourseMeta.find(
+      item => item.slug === this.course.slug
+    );
+    return {
+      courseMeta: courseMetadata
+    };
+  }
 };
 </script>
 <style>
