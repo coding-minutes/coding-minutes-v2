@@ -2,27 +2,14 @@
   <div class="section">
     <div class="section rocket-circles row">
       <div class="content">
-        <h3>
-          {{ heading }}
-          <span class="badge" v-if="new_badge">
-            NEW
-          </span>
-        </h3>
-        <p>{{ description }}</p>
-        <a :href="button_url" target="_blank" rel="noopener noreferrer">
-          <button class="btn btn-purple">
-            {{ button_content }}
-          </button>
-        </a>
+        <slot />
       </div>
       <img :src="require(`@/assets/images/rocket-man.png`)" />
     </div>
   </div>
 </template>
 <script>
-export default {
-  props: ["heading", "description", "new_badge", "button_content", "button_url"]
-};
+export default {};
 </script>
 <style>
 .rocket-circles {
@@ -53,12 +40,5 @@ export default {
 }
 .rocket-circles .content a {
   width: max-content;
-}
-.badge {
-  background: linear-gradient(90deg, #e73c3c 0%, #ff5b37 100%);
-  border-radius: 10px;
-  color: white;
-  padding: 0.5rem 0.5rem;
-  font-size: 22px;
 }
 </style>

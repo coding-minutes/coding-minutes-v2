@@ -11,8 +11,9 @@
             hash: '#courses'
           }"
           class="nav-link"
-          >Courses</nuxt-link
         >
+          Courses
+        </nuxt-link>
         <a
           href="https://www.scaler.com/"
           class="nav-link"
@@ -29,7 +30,15 @@
         >
           Online IDE
         </a>
-        <a href="" class="nav-link">Campus Captain</a>
+
+        <nuxt-link
+          :to="{
+            path: '/campus-captain'
+          }"
+          class="nav-link"
+        >
+          Campus Captain
+        </nuxt-link>
         <!-- <a href="" class="nav-link">About us</a>
         <a href="" class="nav-link">Contact Us</a> -->
       </div>

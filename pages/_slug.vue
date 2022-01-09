@@ -3,12 +3,19 @@
     <Navbar />
     <CourseDetails :course="course" :category="category" />
     <CourseOverview :course="course" />
-    <RocketCircles
-      heading="Ready to take your Coding Skills to Next Level"
-      description="Join the Course Now!"
-      button_content="Enroll now on Udemy"
-      :button_url="course.udemy"
-    />
+    <RocketCircles>
+      <h3>
+        Ready to take your Coding Skills to Next Level
+      </h3>
+      <p>
+        Join the Course Now!
+      </p>
+      <a :href="course.udemy" target="_blank" rel="noopener noreferrer">
+        <button class="btn btn-purple">
+          Enroll now on Udemy
+        </button>
+      </a>
+    </RocketCircles>
     <FAQs />
     <Footer />
   </div>

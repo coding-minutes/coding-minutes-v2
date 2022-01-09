@@ -14,7 +14,14 @@
       <a href="" class="footer-link">About us</a>
       <a href="" class="footer-link">Events</a>
       <a href="" class="footer-link">Courses</a>
-      <a href="" class="footer-link">Campus Captain</a>
+      <nuxt-link
+        :to="{
+          path: '/campus-captain'
+        }"
+        class="footer-link"
+      >
+        Campus Captain
+      </nuxt-link>
       <a
         href="https://ide.codingminutes.com/"
         class="footer-link"
