@@ -14,18 +14,20 @@ export default {
       { hid: 'description', name: 'description', content: '' },
       { name: 'format-detection', content: 'telephone=no' }
     ],
-    link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ]
+    // link: [
+    //   { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+    // ]
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
-    '~assets/css/main.css'
+    '~assets/css/main.css',
+    '~assets/scss/app.scss'
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
+    '@/plugins/bootstrap-vue',
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -39,7 +41,8 @@ export default {
   styleResources: {
     scss: [
       '~assets/scss/mixins.scss',
-      '~assets/scss/variables.scss'
+      '~assets/scss/variables.scss',
+      '~assets/scss/app.scss'
     ]
   },
 

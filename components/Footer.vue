@@ -47,7 +47,7 @@ export default {};
   margin-top: 2rem;
   color: #151518cc;
   font-size: 1rem;
-  font-family: "Nexa Light";
+
 }
 .footer .copyright {
   margin-top: 2.5rem;
@@ -56,7 +56,7 @@ export default {};
 }
 .footer .links {
   width: 50%;
-  font-family: "Nexa Light";
+
   display: grid;
   grid-template-columns: 1fr 1fr;
 }

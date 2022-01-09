@@ -41,11 +41,4 @@ export default {
 </script>
 
 <style>
-html,
-button {
-  font-family: "Nexa Bold", "Verdana", "Helvetica", "sans-serif";
-}
-.section {
-  padding: 0.2rem 5vw;
-}
 </style>

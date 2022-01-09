@@ -95,7 +95,7 @@ export default {};
   padding-bottom: 2.5rem;
 }
 .review-card p {
-  font-family: "Nexa Light";
+
   color: rgba(21, 21, 24, 0.7);
   font-size: 1.2rem;
 }

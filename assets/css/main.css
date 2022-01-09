@@ -1,0 +1,72 @@
+@font-face {
+  font-family: Nexa;
+  font-weight: normal;
+  src: url("/assets/fonts/Nexa\ Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: Nexa;
+  font-weight: bold;
+  src: url("/assets/fonts/Nexa\ Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: Nexa;
+  font-weight: lighter;
+  src: url("/assets/fonts/Nexa\ Light.otf") format("opentype");
+}
+
+:root {
+  font-size: 10px;
+  font-family: Nexa, sans-serif !important;
+}
+
+.wrapper {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.main-section {
+  padding: 10rem 8rem;
+}
+
+.gradient-text-purple {
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: linear-gradient(90deg, #5848EA 0%, #9549EB 100%);
+}
+
+.button-core {
+  font-size: 1.8rem;
+  font-weight: 700;
+  padding: 1.5rem 2rem;
+  border-radius: 50px;
+  display: inline-flex;
+  align-items: center;
+  border: unset;
+}
+
+.button-primary {
+  background: linear-gradient(90deg, #5848EA 0%, #9549EB 100%);
+  color: white;
+}
+
+.button-secondary {
+  border: 1px solid #5848ea;
+  color: #5848ea;
+  background: white;
+}
+
+.main-section__core-text {
+  font-size: 24px;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.mega-title {
+  font-size: 4rem;
+  font-weight: 700;
+}

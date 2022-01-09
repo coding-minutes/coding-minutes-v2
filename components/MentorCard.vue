@@ -86,7 +86,7 @@ export default {
 }
 .mentor-card .overview .company {
   margin-top: 0.5rem;
-  font-family: "Nexa Light";
+
 }
 .mentor-card .description {
   border-left: 1px solid #d8d8d8;
@@ -94,7 +94,7 @@ export default {
   border-bottom: 1px solid #d8d8d8;
   border-radius: 20px;
   padding: 2rem;
-  font-family: "Nexa Light";
+
   font-size: 1rem;
   margin-top: -3.5rem;
   padding-top: 4rem;

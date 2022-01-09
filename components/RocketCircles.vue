@@ -49,7 +49,7 @@ export default {
   color: rgba(21, 21, 24, 0.8);
   font-size: 20px;
   line-height: 160%;
-  font-family: "Nexa Light";
+
 }
 .rocket-circles .content a {
   width: max-content;

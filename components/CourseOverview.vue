@@ -109,7 +109,6 @@ export default {
   grid-template-rows: repeat(6, 1fr);
   grid-auto-flow: column;
   color: #5b5b5d;
-  font-family: "Nexa Light";
   font-size: 16px;
   line-height: 200%;
 }
@@ -119,7 +118,7 @@ export default {
 }
 
 .course-overview .overview p {
-  font-family: "Nexa Light";
+
   font-size: 16px;
   line-height: 26px;
   color: #151518;

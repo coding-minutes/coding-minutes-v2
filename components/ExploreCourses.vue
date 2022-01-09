@@ -1,48 +1,50 @@
 <template>
-  <div class="section explore-learning-path" id="courses">
-    <h1>Explore learning paths 🔥</h1>
-    <span class="tagline">
-      Begin the journey for your dream job with these industry vetted learning
-      paths.
-    </span>
-    <div class="explore-buttons">
-      <button
-        class="category-button"
-        @click="changeCategory(0)"
-        v-bind:class="{ active: selectedCategory === 0 }"
-      >
-        All courses
-      </button>
-      <button
-        class="category-button"
-        v-bind:class="{ active: selectedCategory === category.id }"
-        v-for="category in Courses"
-        :key="category.category"
-        @click="changeCategory(category.id)"
-      >
-        <img
-          :src="require(`@/assets/images/${category.icon}`)"
-          v-if="category.icon"
-          v-bind:alt="category.icon"
-        />
-        {{ category.category }}
-      </button>
-    </div>
-
-    <section
-      v-for="category in CoursesData"
-      :key="category.category"
-      class="category"
-    >
-      <h3 class="category-title">{{ category.category }}</h3>
-      <div class="category-courses-list">
-        <CourseCard
-          v-for="course in category.courses"
-          :key="course.title"
-          :course="course"
-        />
+  <div class="main-section explore-learning-path" id="courses">
+    <div class="wrapper">
+      <div class="mega-title">Explore learning paths 🔥</div>      
+      <div class="main-section__core-text mb-5">
+        Begin the journey for your dream job with these industry vetted learning
+        paths.
       </div>
-    </section>
+      <div class="explore-buttons">
+        <button
+          class="category-button"
+          @click="changeCategory(0)"
+          v-bind:class="{ active: selectedCategory === 0 }"
+        >
+          All courses
+        </button>
+        <button
+          class="category-button"
+          v-bind:class="{ active: selectedCategory === category.id }"
+          v-for="category in Courses"
+          :key="category.category"
+          @click="changeCategory(category.id)"
+        >
+          <img
+            :src="require(`@/assets/images/${category.icon}`)"
+            v-if="category.icon"
+            v-bind:alt="category.icon"
+          />
+          {{ category.category }}
+        </button>
+      </div>
+
+      <section
+        v-for="category in CoursesData"
+        :key="category.category"
+        class="category"
+      >
+        <h3 class="category-title">{{ category.category }}</h3>
+        <div class="category-courses-list">
+          <CourseCard
+            v-for="course in category.courses"
+            :key="course.title"
+            :course="course"
+          />
+        </div>
+      </section>
+    </div>
   </div>
 </template>
 
@@ -120,7 +122,7 @@ export default {
 .tagline {
   color: #151518cc;
   font-size: 1.3rem;
-  font-family: "Nexa Light";
+
 }
 .explore-learning-path .category {
   margin-bottom: 3rem;
@@ -130,6 +132,6 @@ export default {
 }
 .explore-learning-path .category .category-courses-list {
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
 }
 </style>

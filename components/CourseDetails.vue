@@ -60,10 +60,6 @@ export default {
 };
 </script>
 <style>
-html,
-button {
-  font-family: "Nexa Bold", "Verdana", "Helvetica", "sans-serif";
-}
 .section {
   padding: 0.2rem 5vw;
 }
@@ -87,8 +83,6 @@ button {
   font-size: 30px;
 }
 .course-details .description {
-  font-family: "Nexa Light";
-  font-family: 1.3rem;
   color: rgba(21, 21, 24, 0.8);
   width: 75%;
   margin-top: 3rem;

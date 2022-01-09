@@ -81,7 +81,6 @@ export default {
   font-size: 16px;
   line-height: 160%;
   margin-bottom: 1.5rem;
-  font-family: "Nexa Light";
 }
 .course-card .details .rating {
   font-weight: bold;

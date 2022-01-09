@@ -26,6 +26,6 @@ export default {
   margin-top: 2rem;
   color: #5b5b5d;
   font-size: 1rem;
-  font-family: "Nexa Light";
+
 }
 </style>
