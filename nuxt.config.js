@@ -38,13 +38,13 @@ export default {
     '@nuxtjs/style-resources'
   ],
 
-  styleResources: {
-    scss: [
-      '~assets/scss/mixins.scss',
-      '~assets/scss/variables.scss',
-      '~assets/scss/app.scss'
-    ]
-  },
+  // styleResources: {
+  //   scss: [
+  //     '~assets/scss/mixins.scss',
+  //     '~assets/scss/variables.scss',
+  //     '~assets/scss/app.scss'
+  //   ]
+  // },
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [

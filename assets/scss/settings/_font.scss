@@ -1,0 +1,28 @@
+// Font Sizes
+
+$font-1: 1rem; // 10px
+$font-2: 1.2rem; // 12px
+$font-3: 1.4rem; // Standard font size - 14px
+$font-4: 1.6rem; // 16px
+$font-5: 1.8rem; // 18px
+
+$heading-6: 2rem; // 20px
+$heading-5: 2.4rem; // 24px
+$heading-4: 2.8rem; // 28px
+$heading-3: 3.2rem; // 32px
+$heading-2: 3.6rem; // 36px
+$heading-1: 4rem; // 40px
+
+$text-size-list: (
+  "font-1": $font-1,
+  "font-2": $font-2,
+  "font-3": $font-3,
+  "font-4": $font-4,
+  "font-5": $font-5,
+  "heading-6": $heading-6,
+  "heading-5": $heading-5,
+  "heading-4": $heading-4,
+  "heading-3": $heading-3,
+  "heading-2": $heading-2,
+  "heading-1": $heading-1,
+);
