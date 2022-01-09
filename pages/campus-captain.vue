@@ -158,42 +158,22 @@
       <h4>What our Captains Say? ❤️</h4>
       <div class="row">
         <TestimonialCard
-          picture="user1"
-          quote="Every learner needs the power of practice and knowledge blended together to be on the path to success. Coding Minutes provides the right platform to all the learners where each one not only understands a concept through video lectures, they also can practice on either online IDE or their computers."
-          name="K Samarth"
-          institute="Sahyadri College of Engineering and Management"
-        />
-        <TestimonialCard
-          picture="user2"
-          quote="Coding Minutes is an amazing platform to learn, workshops are very informative and based on real world, instructed by world class mentors as Prateek and Mohit bhaiya, who are already at very good places in their lives and they know our mental thinking and guide us according to that."
-          name="Haman Chaudhary"
-          institute="IIT Delhi"
-        />
-        <TestimonialCard
-          picture="user2"
-          quote="Coding Minutes is an amazing platform to learn, workshops are very informative and based on real world, instructed by world class mentors as Prateek and Mohit bhaiya, who are already at very good places in their lives and they know our mental thinking and guide us according to that."
-          name="Haman Chaudhary"
-          institute="IIT Delhi"
+          v-for="testimonial in TestimonialList1"
+          :picture="testimonial.picture"
+          :quote="testimonial.quote"
+          :name="testimonial.name"
+          :institute="testimonial.institute"
+          :key="testimonial.name"
         />
       </div>
       <div class="row">
         <TestimonialCard
-          picture="user1"
-          quote="Every learner needs the power of practice and knowledge blended together to be on the path to success. Coding Minutes provides the right platform to all the learners where each one not only understands a concept through video lectures, they also can practice on either online IDE or their computers."
-          name="K Samarth"
-          institute="Sahyadri College of Engineering and Management"
-        />
-        <TestimonialCard
-          picture="user2"
-          quote="Coding Minutes is an amazing platform to learn, workshops are very informative and based on real world, instructed by world class mentors as Prateek and Mohit bhaiya, who are already at very good places in their lives and they know our mental thinking and guide us according to that."
-          name="Haman Chaudhary"
-          institute="IIT Delhi"
-        />
-        <TestimonialCard
-          picture="user1"
-          quote="Every learner needs the power of practice and knowledge blended together to be on the path to success. Coding Minutes provides the right platform to all the learners where each one not only understands a concept through video lectures, they also can practice on either online IDE or their computers."
-          name="K Samarth"
-          institute="Sahyadri College of Engineering and Management"
+          v-for="testimonial in TestimonialList2"
+          :picture="testimonial.picture"
+          :quote="testimonial.quote"
+          :name="testimonial.name"
+          :institute="testimonial.institute"
+          :key="testimonial.name"
         />
       </div>
     </section>
@@ -228,6 +208,7 @@ import PerkCard from "@/components/PerkCard.vue";
 import TestimonialCard from "@/components/TestimonialCard.vue";
 import FAQs from "@/components/FAQs.vue";
 import Footer from "@/components/Footer.vue";
+import TestimonialList from "@/data/captain_testimonials.json";
 export default {
   components: {
     Navbar,
@@ -235,6 +216,14 @@ export default {
     TestimonialCard,
     FAQs,
     Footer
+  },
+  data() {
+    const TestimonialList1 = TestimonialList.slice(0, 3);
+    const TestimonialList2 = TestimonialList.slice(-3);
+    return {
+      TestimonialList1,
+      TestimonialList2
+    };
   }
 };
 </script>
@@ -364,6 +353,11 @@ export default {
 .timeline img {
   width: 56px;
   height: 56px;
+}
+.captain-testimonials h4 {
+  text-align: center;
+  font-size: 37px;
+  line-height: 160%;
 }
 .start-your-journey {
   background: #f9f9f9;
