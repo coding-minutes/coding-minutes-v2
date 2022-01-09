@@ -1,0 +1,20 @@
+[
+  {
+    "picture": "user1",
+    "name": "John Doe",
+    "institute": "Institute of Technology",
+    "quote": "Every learner needs the power of practice and knowledge blended together to be on the path to success. Coding Minutes provides the right platform to all the learners where each one not only understands a concept through video lectures, they also can practice on either online IDE or their computers."
+  },
+  {
+    "picture": "user2",
+    "name": "Jane Doe",
+    "institute": "Another Institute of Technology",
+    "quote": "Coding Minutes is an amazing platform to learn, workshops are very informative and based on real world, instructed by world class mentors as Prateek and Mohit bhaiya, who are already at very good places in their lives and they know our mental thinking and guide us according to that."
+  },
+  {
+    "picture": "user2",
+    "name": "Jane Doe",
+    "institute": "Another Institute of Technology",
+    "quote": "Coding Minutes is an amazing platform to learn, workshops are very informative and based on real world, instructed by world class mentors as Prateek and Mohit bhaiya, who are already at very good places in their lives and they know our mental thinking and guide us according to that."
+  }
+]
