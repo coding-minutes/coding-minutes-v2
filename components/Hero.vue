@@ -69,4 +69,5 @@ export default {};
   right: 0;
   bottom: -14rem;
 }
+
 </style>
