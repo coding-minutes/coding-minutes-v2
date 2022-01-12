@@ -1,0 +1,399 @@
+[
+  {
+    "category": "Data Structures & Algorithms",
+    "id": 1,
+    "icon": "dart.png",
+    "courses": [
+      {
+        "title": "Data Structures Basics",
+        "mentors": ["prateek", "apaar"],
+        "level": 1,
+        "rating": 5,
+        "slug": "data-structures-basics",
+        "backdrop": "data_structures_basic.png",
+        "youtube": "https://www.youtube.com/embed/bN4erfb3cKw",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam corrupti aliquid nihil ex perferendis at doloribus ut quo quae a. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras molestie massa ac luctus pulvinar. ",
+        "learnings": [
+          "Accelerate your algorithmic thinking",
+          "Learn to optimise brute force solutions",
+          "Learn to apply data structures",
+          "Learn to write complex codes",
+          "150+ carefully curated problems",
+          "Analysis of space-time complexity",
+          "Using C++ Standard Template Library",
+          "Become a 10x Problem Solver",
+          "Sliding Window, Hashing, Maps & Sets",
+          "Master Dynamic Programming & Graphs",
+          "BONUS : Build a LRU Cache",
+          "Practice Questions on all important topics"
+        ],
+        "overview": [
+          "Do you find yourself feeling like you get \"stuck\" every time you get a coding question?",
+          "Welcome to Data Structures & Algorithms, Level up Course the only course that provides you an ultimate practice on problem solving process and helping you to take your data structures & algorithms to the next level.",
+          "The course is taught by an expert instructor Prateek Narang from Google."
+        ],
+        "topics": [
+          "Arrays & Vectors",
+          "String Problems",
+          "Sliding Window problem",
+          "Sorting & Searching",
+          "Binary Tree",
+          "Binary Search",
+          "Recursion problem",
+          "Linked list problem",
+          "Stack & Queue",
+          "Graph Algorithms"
+        ]
+      },
+      {
+        "title": "Data Structures Essentials",
+        "mentors": ["prateek"],
+        "level": 2,
+        "rating": 4.7,
+        "slug": "data-structures-essentials",
+        "backdrop": "data_structures_essentials.png",
+        "youtube": "https://www.youtube.com/embed/bN4erfb3cKw",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam corrupti aliquid nihil ex perferendis at doloribus ut quo quae a. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras molestie massa ac luctus pulvinar. ",
+        "learnings": [
+          "Accelerate your algorithmic thinking",
+          "Learn to optimise brute force solutions",
+          "Learn to apply data structures",
+          "Learn to write complex codes",
+          "150+ carefully curated problems",
+          "Analysis of space-time complexity",
+          "Using C++ Standard Template Library",
+          "Become a 10x Problem Solver",
+          "Sliding Window, Hashing, Maps & Sets",
+          "Master Dynamic Programming & Graphs",
+          "BONUS : Build a LRU Cache",
+          "Practice Questions on all important topics"
+        ],
+        "overview": [
+          "Do you find yourself feeling like you get \"stuck\" every time you get a coding question?",
+          "Welcome to Data Structures & Algorithms, Level up Course the only course that provides you an ultimate practice on problem solving process and helping you to take your data structures & algorithms to the next level.",
+          "The course is taught by an expert instructor Prateek Narang from Google."
+        ],
+        "topics": [
+          "Arrays & Vectors",
+          "String Problems",
+          "Sliding Window problem",
+          "Sorting & Searching",
+          "Binary Tree",
+          "Binary Search",
+          "Recursion problem",
+          "Linked list problem",
+          "Stack & Queue",
+          "Graph Algorithms"
+        ]
+      },
+      {
+        "title": "Data Structures Level Up",
+        "mentors": ["prateek"],
+        "level": 3,
+        "rating": 4.5,
+        "slug": "data-structures-levelup",
+        "backdrop": "data_structures_level_up.png",
+        "youtube": "https://www.youtube.com/embed/bN4erfb3cKw",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam corrupti aliquid nihil ex perferendis at doloribus ut quo quae a. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras molestie massa ac luctus pulvinar. ",
+        "learnings": [
+          "Accelerate your algorithmic thinking",
+          "Learn to optimise brute force solutions",
+          "Learn to apply data structures",
+          "Learn to write complex codes",
+          "150+ carefully curated problems",
+          "Analysis of space-time complexity",
+          "Using C++ Standard Template Library",
+          "Become a 10x Problem Solver",
+          "Sliding Window, Hashing, Maps & Sets",
+          "Master Dynamic Programming & Graphs",
+          "BONUS : Build a LRU Cache",
+          "Practice Questions on all important topics"
+        ],
+        "overview": [
+          "Do you find yourself feeling like you get \"stuck\" every time you get a coding question?",
+          "Welcome to Data Structures & Algorithms, Level up Course the only course that provides you an ultimate practice on problem solving process and helping you to take your data structures & algorithms to the next level.",
+          "The course is taught by an expert instructor Prateek Narang from Google."
+        ],
+        "topics": [
+          "Arrays & Vectors",
+          "String Problems",
+          "Sliding Window problem",
+          "Sorting & Searching",
+          "Binary Tree",
+          "Binary Search",
+          "Recursion problem",
+          "Linked list problem",
+          "Stack & Queue",
+          "Graph Algorithms"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Competitive Programming",
+    "id": 2,
+    "icon": "location.png",
+    "courses": [
+      {
+        "title": "Competitive Programming",
+        "mentors": ["prateek", "apaar"],
+        "level": 1,
+        "rating": 5,
+        "slug": "competitive-programming",
+        "backdrop": "competitive_programming.png",
+        "youtube": "https://www.youtube.com/embed/bN4erfb3cKw",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam corrupti aliquid nihil ex perferendis at doloribus ut quo quae a. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras molestie massa ac luctus pulvinar. ",
+        "learnings": [
+          "Accelerate your algorithmic thinking",
+          "Learn to optimise brute force solutions",
+          "Learn to apply data structures",
+          "Learn to write complex codes",
+          "150+ carefully curated problems",
+          "Analysis of space-time complexity",
+          "Using C++ Standard Template Library",
+          "Become a 10x Problem Solver",
+          "Sliding Window, Hashing, Maps & Sets",
+          "Master Dynamic Programming & Graphs",
+          "BONUS : Build a LRU Cache",
+          "Practice Questions on all important topics"
+        ],
+        "overview": [
+          "Do you find yourself feeling like you get \"stuck\" every time you get a coding question?",
+          "Welcome to Data Structures & Algorithms, Level up Course the only course that provides you an ultimate practice on problem solving process and helping you to take your data structures & algorithms to the next level.",
+          "The course is taught by an expert instructor Prateek Narang from Google."
+        ],
+        "topics": [
+          "Arrays & Vectors",
+          "String Problems",
+          "Sliding Window problem",
+          "Sorting & Searching",
+          "Binary Tree",
+          "Binary Search",
+          "Recursion problem",
+          "Linked list problem",
+          "Stack & Queue",
+          "Graph Algorithms"
+        ]
+      },
+      {
+        "title": "Graph Theory",
+        "mentors": ["prateek", "apaar"],
+        "level": 2,
+        "rating": 4.7,
+        "slug": "graph-theory",
+        "backdrop": "graph_theory.png",
+        "youtube": "https://www.youtube.com/embed/bN4erfb3cKw",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam corrupti aliquid nihil ex perferendis at doloribus ut quo quae a. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras molestie massa ac luctus pulvinar. ",
+        "learnings": [
+          "Accelerate your algorithmic thinking",
+          "Learn to optimise brute force solutions",
+          "Learn to apply data structures",
+          "Learn to write complex codes",
+          "150+ carefully curated problems",
+          "Analysis of space-time complexity",
+          "Using C++ Standard Template Library",
+          "Become a 10x Problem Solver",
+          "Sliding Window, Hashing, Maps & Sets",
+          "Master Dynamic Programming & Graphs",
+          "BONUS : Build a LRU Cache",
+          "Practice Questions on all important topics"
+        ],
+        "overview": [
+          "Do you find yourself feeling like you get \"stuck\" every time you get a coding question?",
+          "Welcome to Data Structures & Algorithms, Level up Course the only course that provides you an ultimate practice on problem solving process and helping you to take your data structures & algorithms to the next level.",
+          "The course is taught by an expert instructor Prateek Narang from Google."
+        ],
+        "topics": [
+          "Arrays & Vectors",
+          "String Problems",
+          "Sliding Window problem",
+          "Sorting & Searching",
+          "Binary Tree",
+          "Binary Search",
+          "Recursion problem",
+          "Linked list problem",
+          "Stack & Queue",
+          "Graph Algorithms"
+        ]
+      },
+      {
+        "title": "Game Theory",
+        "mentors": ["prateek", "apaar"],
+        "level": 3,
+        "rating": 4.5,
+        "slug": "game-theory",
+        "backdrop": "game_theory.png",
+        "youtube": "https://www.youtube.com/embed/bN4erfb3cKw",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam corrupti aliquid nihil ex perferendis at doloribus ut quo quae a. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras molestie massa ac luctus pulvinar. ",
+        "learnings": [
+          "Accelerate your algorithmic thinking",
+          "Learn to optimise brute force solutions",
+          "Learn to apply data structures",
+          "Learn to write complex codes",
+          "150+ carefully curated problems",
+          "Analysis of space-time complexity",
+          "Using C++ Standard Template Library",
+          "Become a 10x Problem Solver",
+          "Sliding Window, Hashing, Maps & Sets",
+          "Master Dynamic Programming & Graphs",
+          "BONUS : Build a LRU Cache",
+          "Practice Questions on all important topics"
+        ],
+        "overview": [
+          "Do you find yourself feeling like you get \"stuck\" every time you get a coding question?",
+          "Welcome to Data Structures & Algorithms, Level up Course the only course that provides you an ultimate practice on problem solving process and helping you to take your data structures & algorithms to the next level.",
+          "The course is taught by an expert instructor Prateek Narang from Google."
+        ],
+        "topics": [
+          "Arrays & Vectors",
+          "String Problems",
+          "Sliding Window problem",
+          "Sorting & Searching",
+          "Binary Tree",
+          "Binary Search",
+          "Recursion problem",
+          "Linked list problem",
+          "Stack & Queue",
+          "Graph Algorithms"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Python Master",
+    "id": 3,
+    "icon": "presentation.png",
+    "courses": [
+      {
+        "title": "Python Master",
+        "mentors": ["prateek", "mohit"],
+        "level": 1,
+        "rating": 5,
+        "slug": "python-master",
+        "backdrop": "python_master.png",
+        "youtube": "https://www.youtube.com/embed/bN4erfb3cKw",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam corrupti aliquid nihil ex perferendis at doloribus ut quo quae a. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras molestie massa ac luctus pulvinar. ",
+        "learnings": [
+          "Accelerate your algorithmic thinking",
+          "Learn to optimise brute force solutions",
+          "Learn to apply data structures",
+          "Learn to write complex codes",
+          "150+ carefully curated problems",
+          "Analysis of space-time complexity",
+          "Using C++ Standard Template Library",
+          "Become a 10x Problem Solver",
+          "Sliding Window, Hashing, Maps & Sets",
+          "Master Dynamic Programming & Graphs",
+          "BONUS : Build a LRU Cache",
+          "Practice Questions on all important topics"
+        ],
+        "overview": [
+          "Do you find yourself feeling like you get \"stuck\" every time you get a coding question?",
+          "Welcome to Data Structures & Algorithms, Level up Course the only course that provides you an ultimate practice on problem solving process and helping you to take your data structures & algorithms to the next level.",
+          "The course is taught by an expert instructor Prateek Narang from Google."
+        ],
+        "topics": [
+          "Arrays & Vectors",
+          "String Problems",
+          "Sliding Window problem",
+          "Sorting & Searching",
+          "Binary Tree",
+          "Binary Search",
+          "Recursion problem",
+          "Linked list problem",
+          "Stack & Queue",
+          "Graph Algorithms"
+        ]
+      },
+      {
+        "title": "Python for Data Science",
+        "mentors": ["prateek", "mohit"],
+        "level": 2,
+        "rating": 4.7,
+        "slug": "python-for-data-science",
+        "backdrop": "python_for_data_science.png",
+        "youtube": "https://www.youtube.com/embed/bN4erfb3cKw",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam corrupti aliquid nihil ex perferendis at doloribus ut quo quae a. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras molestie massa ac luctus pulvinar. ",
+        "learnings": [
+          "Accelerate your algorithmic thinking",
+          "Learn to optimise brute force solutions",
+          "Learn to apply data structures",
+          "Learn to write complex codes",
+          "150+ carefully curated problems",
+          "Analysis of space-time complexity",
+          "Using C++ Standard Template Library",
+          "Become a 10x Problem Solver",
+          "Sliding Window, Hashing, Maps & Sets",
+          "Master Dynamic Programming & Graphs",
+          "BONUS : Build a LRU Cache",
+          "Practice Questions on all important topics"
+        ],
+        "overview": [
+          "Do you find yourself feeling like you get \"stuck\" every time you get a coding question?",
+          "Welcome to Data Structures & Algorithms, Level up Course the only course that provides you an ultimate practice on problem solving process and helping you to take your data structures & algorithms to the next level.",
+          "The course is taught by an expert instructor Prateek Narang from Google."
+        ],
+        "topics": [
+          "Arrays & Vectors",
+          "String Problems",
+          "Sliding Window problem",
+          "Sorting & Searching",
+          "Binary Tree",
+          "Binary Search",
+          "Recursion problem",
+          "Linked list problem",
+          "Stack & Queue",
+          "Graph Algorithms"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Others",
+    "id": 4,
+    "courses": [
+      {
+        "title": "Git and Github",
+        "mentors": ["prateek", "mohit"],
+        "level": 2,
+        "rating": 5,
+        "slug": "data-structures-basics",
+        "backdrop": "github.png",
+        "youtube": "https://www.youtube.com/embed/bN4erfb3cKw",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam corrupti aliquid nihil ex perferendis at doloribus ut quo quae a. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras molestie massa ac luctus pulvinar. ",
+        "learnings": [
+          "Accelerate your algorithmic thinking",
+          "Learn to optimise brute force solutions",
+          "Learn to apply data structures",
+          "Learn to write complex codes",
+          "150+ carefully curated problems",
+          "Analysis of space-time complexity",
+          "Using C++ Standard Template Library",
+          "Become a 10x Problem Solver",
+          "Sliding Window, Hashing, Maps & Sets",
+          "Master Dynamic Programming & Graphs",
+          "BONUS : Build a LRU Cache",
+          "Practice Questions on all important topics"
+        ],
+        "overview": [
+          "Do you find yourself feeling like you get \"stuck\" every time you get a coding question?",
+          "Welcome to Data Structures & Algorithms, Level up Course the only course that provides you an ultimate practice on problem solving process and helping you to take your data structures & algorithms to the next level.",
+          "The course is taught by an expert instructor Prateek Narang from Google."
+        ],
+        "topics": [
+          "Arrays & Vectors",
+          "String Problems",
+          "Sliding Window problem",
+          "Sorting & Searching",
+          "Binary Tree",
+          "Binary Search",
+          "Recursion problem",
+          "Linked list problem",
+          "Stack & Queue",
+          "Graph Algorithms"
+        ],
+        "link": "git-and-github"
+      }
+    ]
+  }
+]
