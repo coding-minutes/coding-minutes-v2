@@ -6,7 +6,7 @@
           <div class="mega-title">Kickstart your</div>
           <div class="mega-title gradient-text-purple">Coding Career in Minutes</div>
           <div class="mt-5 main-section__core-text">
-             <!--TODO: Remove this above main-section__core-text class after creating standard font-size classes-->
+             <!-- TODO: Remove this above main-section__core-text class after creating standard font-size classes -->
             <strong> Pocket friendly courses</strong> with interactive content,
             top-notch instructors, TA support, Projects & Assignments.
           </div>
